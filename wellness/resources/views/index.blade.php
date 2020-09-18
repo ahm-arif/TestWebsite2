@@ -2,32 +2,20 @@
 <html lang="en">
 
 <head>
-   <!-- Required meta tags -->
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <title>@yield('title')</title>
-   <link rel="icon" href="img/favicon.png">
-   <!-- Bootstrap CSS -->
+   <link rel="icon" href="img/wc.png">
    <link rel="stylesheet" href="css/bootstrap.min.css">
-   <!-- animate CSS -->
-   <link rel="stylesheet" href="css/animate.css">
-   <!-- owl carousel CSS -->
-   <link rel="stylesheet" href="css/owl.carousel.min.css">
-   <!-- themify CSS -->
    <link rel="stylesheet" href="css/themify-icons.css">
-   <!-- flaticon CSS -->
-   <link rel="stylesheet" href="css/flaticon.css">
-   <!-- magnific-popup CSS -->
    <link rel="stylesheet" href="css/magnific-popup.css">
-   <!-- font awesome CSS -->
-   <link rel="stylesheet" href="fontawesome/css/all.min.css">
-   <!-- style CSS -->
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-   <!--::menu part start::-->
-   <header class="main_menu home_menu" style="background-color: rgb(189, 159, 90,1)">
+   <header class="shadow main_menu home_menu" style="background-color: rgb(255,255,255,1);position: fixed;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -58,52 +46,54 @@
 							</ul>
 						</div>
 						<div class="btn_1 d-none d-lg-block">
-							<a href="#" class="float-right" style="color: white"><strong>Download App</strong></a>
-						</div>
+                     <div class="btn_sosmed">
+				           <a href="#" class="download" style="color: white"><strong>Download App</strong></a>
+                       <div class="sosmed">
+                        <a href="https://www.facebook.com/" target="_blank" class="facebook"><img src="img/fb.png" style="height: 30px;width: 30px;margin-right: 5px;margin-top: 15px;"></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="instagram"><img src="img/ig.png" style="height: 30px;width: 30px;margin-right: 5px;;margin-top: 15px;"></a>
+                        <a href="https://www.twitter.com/" target="_blank" class="twitter"><img src="img/twitter.png" style="height: 30px;width: 30px;margin-right: 5px;;margin-top: 15px;"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank" class="whatsapp"><img src="img/wa.png" style="height: 30px;width: 30px;margin-top: 15px;"></a>
+						   </div>
+                  </div>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</header>
-   <!--::menu part end::-->
 
     @yield('content')
 
-   <!--::footer_part start::-->
    <footer class="footer_part">
       <div class="container">
          <div class="row">
             <div class="col-sm-6 col-lg-3">
                <div class="single_footer_part">
                   <h4>About Us</h4>
-                  <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
-                  <a href="index.html" class="footer_logo"> <img src="img/logo.png" alt="#"> </a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u</p>
+                  <a href="index.html" class="footer_logo"> <img src="img/logo2.png" alt="#"> </a>
                </div>
             </div>
             <div class="col-sm-6 col-lg-3">
                <div class="single_footer_part">
                   <h4>Contact Info</h4>
-                  <p>Address : Jalan Kemenangan 3 No.47</p>
-                  <p>Phone : 021661830</p>
-                  <p>Email : Wellnesscenter.com</p>
+                  <p>Address : Jl. KH.ZainulArifin No.20</p>
+                  <p>Phone : 0218111889369</p>
+                  <p>Email : woorizenindonesia@gmail.com</p>
                </div>
             </div>
             <div class="col-sm-6 col-lg-3">
                <div class="single_footer_part">
-                  <h4>Important Link</h4>
+                  <h4>Download Our App</h4>
                   <ul class="list-unstyled">
-                     <li><a href=""> WHMCS-bridge</a></li>
-                     <li><a href="">Search Domain</a></li>
-                     <li><a href="">My Account</a></li>
-                     <li><a href="">Shopping Cart</a></li>
-                     <li><a href="">Our Shop</a> Our Shop</li>
+                     <img src="img/googleplay.png" style="height: 70px;margin-bottom: 10px;">
+                     <img src="img/appstore.png" style="height: 77px">
                   </ul>
                </div>
             </div>
             <div class="col-sm-6 col-lg-3">
                <div class="single_footer_part">
                   <h4>Newsletter</h4>
-                  <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labori
                   </p>
                   <div class="mail_part">
                      <input type="text" placeholder="Email Address" class="placeholder hide-on-focus">
@@ -127,22 +117,7 @@
          </div>
       </div>
    </footer>
-   <!--::footer_part end::-->
-   <!-- jquery plugins here-->
-   <!-- jquery -->
-   <script src="js/jquery-1.12.1.min.js"></script>
-   <!-- popper js -->
-   <script src="js/popper.min.js"></script>
-   <!-- bootstrap js -->
    <script src="js/bootstrap.min.js"></script>
-   <!-- easing js -->
-   <script src="js/jquery.magnific-popup.js"></script>
-   <!-- particles js -->
-   <script src="js/owl.carousel.min.js"></script>
-   <!-- easing js -->
-   <script src="js/jquery.easing.min.js"></script>
-   <!-- custom js -->
-   <script src="js/custom.js"></script>
 </body>
 
 </html>

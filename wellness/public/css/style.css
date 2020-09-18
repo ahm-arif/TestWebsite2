@@ -1,10 +1,8 @@
-/**************** common css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,300,400i,400,700|Poppins:400,500,600,700|Roboto:400,500i,700");
-/* line 3, E:/161 Real estate/161_Real_state_html/sass/_common.scss */
+
 body {
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin: 0;
   font-size: 14px;
 }
 
@@ -290,6 +288,7 @@ ul {
 
 /**************** common css end ****************/
 /**************** menu part css start ****************/
+
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_menu.scss */
 .main_menu {
   padding: 10px 0px;
@@ -548,14 +547,14 @@ ul {
 /* line 7, E:/161 Real estate/161_Real_state_html/sass/_banner.scss */
 .banner_part:after {
   position: absolute;
-  right: 0px;
-  top: 110px;
+  left: 810px;
+  top: 140px;
   content: "";
   width: 47%;
   height: 100%;
-  background-image: url(../img/doctor.png);
+  background-image: url(../img/.png);
   background-repeat: no-repeat;
-  background-size: 550px;
+  background-size: 450px;
 }
 
 @media (max-width: 576px) {
@@ -607,7 +606,7 @@ ul {
   height: 100%;
   position: relative;
   z-index: 99;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 @media (max-width: 576px) {
@@ -836,338 +835,21 @@ ul {
 /**************** hero part css end ****************/
 /************Team css start***************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part {
-  padding-top: 130px;
-  position: relative;
-  z-index: 99;
-}
-
-@media (max-width: 576px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part {
-    padding-top: 70px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part {
-    padding-top: 70px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 2, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part {
-    padding-top: 70px;
-  }
-}
-
-/* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part img {
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: 130px;
-}
-
-@media (max-width: 576px) {
-  /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part img {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part img {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 18, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part img {
-    display: none;
-  }
-}
-
-/* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part:after {
-  position: absolute;
-  content: "";
-  top: 50px;
-  right: 0;
-  width: 60%;
-  height: 100%;
-  background-color: #F7F7F7;
-  z-index: -1;
-}
-
-@media (max-width: 576px) {
-  /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part:after {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part:after {
-    top: 0;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 36, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part:after {
-    top: 0;
-  }
-}
-
-/* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part:before {
-  position: absolute;
-  content: "";
-  right: 350px;
-  width: 100%;
-  top:  0px;
-  height: 500px;
-  background-image: url(../img/one.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 700px;
-  z-index: 2;
-}
-
-@media (max-width: 576px) {
-  /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part:before {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part:before {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 58, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part:before {
-    display: none;
-  }
-}
-
-/* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text {
-  padding: 0px 0px 50px;
-}
-
-@media (max-width: 576px) {
-  /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text {
-    padding: 0px 0px 0px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text {
-    padding: 0px 0px 0px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text {
-    padding: 0px 0px 0px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 83, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text {
-    padding: 169px 0px 65px;
-  }
-}
-
-/* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text h2 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 50px;
-  position: relative;
-}
-
-/* line 103, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text h2:after {
-  position: absolute;
-  left: 0;
-  height: 2px;
-  width: 90px;
-  content: "";
-  background-color: #cfb579;
-  bottom: -15px;
-}
-
-@media (max-width: 576px) {
-  /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text h2 {
-    font-size: 25px;
-    margin-bottom: 35px;
-    line-height: 35px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text h2 {
-    font-size: 25px;
-    margin-bottom: 35px;
-    line-height: 35px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text h2 {
-    font-size: 30px;
-    margin-bottom: 35px;
-    line-height: 40px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 97, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text h2 {
-    font-size: 30px;
-    margin-bottom: 35px;
-    line-height: 40px;
-  }
-}
-
-/* line 133, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text p {
-  line-height: 1.929;
-  margin-bottom: 30px;
-}
-
-/* line 137, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 35px;
-}
-
-/* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text ul li {
-  display: inline-block;
-  margin-bottom: 15px;
-  font-size: 14px;
-  font-family: "Open Sans",sans-serif;
-  color: #7f7f7f;
-  padding-left: 33px;
-}
-
-@media (max-width: 576px) {
-  /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li {
-    padding-left: 41px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li {
-    padding-left: 41px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li {
-    padding-left: 41px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 142, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li {
-    padding-left: 41px;
-  }
-}
-
-/* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text ul li span {
-  margin-right: 17px;
-  color: #cfb579;
-  font-size: 20px;
-  position: absolute;
-  left: 14px;
-}
-
-@media (max-width: 576px) {
-  /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li span {
-    padding-bottom: 15px;
-    position: absolute;
-    left: 15px;
-    padding-top: 2px;
-  }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li span {
-    padding-bottom: 15px;
-    position: absolute;
-    left: 15px;
-    padding-top: 2px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li span {
-    padding-bottom: 15px;
-    position: absolute;
-    left: 15px;
-    padding-top: 2px;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 161, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-  .team_part .team_member_text ul li span {
-    padding-bottom: 15px;
-    position: absolute;
-    left: 15px;
-    padding-top: 6px;
-  }
-}
-
-/* line 194, E:/161 Real estate/161_Real_state_html/sass/_team.scss */
-.team_part .team_member_text .btn_1 {
-  padding: 10px 42px;
-}
 
 /************passion css start***************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
 .passion_part {
   background-image: url("../img/passion_bg.png");
+  visibility: 0.5;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
   background-position: top;
-  padding: 250px 0px 130px;
+  padding: 100px 0px 130px;
   position: relative;
   z-index: 1;
-  margin-top: -125px;
+  margin-top: 25px;
 }
 
 @media (max-width: 576px) {
@@ -1216,7 +898,7 @@ ul {
 }
 
 /* line 38, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
-.passion_part .single_passion .single_passion_item {
+.passion_part .single_passion .fitur {
   padding: 40px 30px 45px;
   text-align: center;
   position: relative;
@@ -1226,11 +908,11 @@ ul {
 }
 
 /* line 44, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
-.passion_part .single_passion .single_passion_item:after {
+.passion_part .container .fitur:after {
   position: absolute;
   content: "";
   width: 100%;
-  height: 100%;
+  height: 300px;
   left: 0;
   top: 0;
   background-image: url(../img/patten_bg.png);
@@ -1240,6 +922,74 @@ ul {
   z-index: -1;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 1200px;
+  display: flex;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin-right: 50px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front h3{
+  margin-top: 20px;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(255,255,255,0.6);
+  color: black;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(255,255,255,0.6);
+  color: black;
+  padding-top: 50px;
+  border-radius: 15px;
+  transform: rotateY(180deg);
+}
+
+
+.fiturrow{
+  display: flex;
+}
+
+.fiturcard{
+  margin-right: 30px;
+  justify-content: space-around;
+}
+
+.fitur h4{
+  color: white;
 }
 
 /* line 58, E:/161 Real estate/161_Real_state_html/sass/_passion.scss */
@@ -1913,6 +1663,7 @@ ul {
   font-weight: 700;
 }
 
+
 @media (max-width: 576px) {
   /* line 166, E:/161 Real estate/161_Real_state_html/sass/_room_part.scss */
   .room_part .container-fluid .room_2 .room_text_2 h1 {
@@ -1973,7 +1724,7 @@ ul {
 /*****************Review part start******************/
 /* line 2, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
 .review_part {
-  padding: 90px 0px 130px;
+  margin-top: -10px;
   position: relative;
   z-index: 1;
 }
@@ -2006,7 +1757,7 @@ ul {
 .review_part:after {
   position: absolute;
   content: "";
-  left: 67px;
+  left: 17px;
   top: -125px;
   width: 200px;
   height: 200px;
@@ -2024,11 +1775,31 @@ ul {
   }
 }
 
+.container1{
+  margin-left: 100px;
+  width: 1100px;
+  top: 50%;
+  bottom: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.alasan11{
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+.alasan11 h3{
+  margin-top: 30px;
+}
+
+
 /* line 46, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
 .review_part:before {
   position: absolute;
   content: "";
-  right: 0;
+  left: 1200px;
   width: 180px;
   height: 450px;
   background-image: url(../img/review_overley.png);
@@ -2060,26 +1831,26 @@ ul {
 }
 
 /* line 70, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
-.review_part .section_tittle {
+.kelebihan .section_tittle {
   margin-bottom: 105px;
 }
 
 @media (max-width: 576px) {
   /* line 70, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
-  .review_part .section_tittle {
+  .kelebihan .section_tittle {
     margin-bottom: 45px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 70, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
-  .review_part .section_tittle {
+  .kelebihan .section_tittle {
     margin-bottom: 45px;
   }
 }
 
 /* line 84, E:/161 Real estate/161_Real_state_html/sass/_review.scss */
-.review_part .section_tittle h1 {
+.kelebihan .section_tittle h1 {
   color: #14303a;
 }
 
@@ -2194,6 +1965,87 @@ ul {
   .about_review {
     margin-top: 0px;
   }
+}
+
+.katamereka h1 {
+  font-size: 40px;
+  color: black;
+  line-height: 1.25;
+  font-weight: 700;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.katamereka h1:after {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 90px;
+  content: "";
+  background-color: #cfb579;
+  bottom: -27px;
+}
+
+ 
+.testimonial{
+    text-align: center;
+    margin: 0 15px;
+}
+.testimonial .description{
+    padding: 15px;
+    margin: 0;
+    border-top: 4px solid #73438f;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    color: #454646;
+    line-height: 30px;
+    position: relative;
+}
+.testimonial .description:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #73438f;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+.owl-theme .owl-controls{
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #ccc;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #73438f;
 }
 
 /**************cta area start*****************/
@@ -2892,39 +2744,12 @@ ul {
 .footer_part .footer_icon li a {
   font-size: 14px;
   color: #fff;
-  margin-left: 30px;
+  margin-left: 130px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-@media (max-width: 576px) {
-  /* line 103, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part .footer_icon li a {
-    margin-left: 0px;
-    margin-right: 25px;
-  }
-}
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 103, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part .footer_icon li a {
-    margin-left: 0px;
-    margin-right: 25px;
-  }
-}
-
-/* line 122, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-.footer_part .footer_icon li a :hover {
-  color: #cfb579;
-}
-
-@media (max-width: 576px) {
-  /* line 99, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
-  .footer_part .footer_icon {
-    float: left;
-    margin-top: 15px;
-  }
-}
 
 /* line 141, E:/161 Real estate/161_Real_state_html/sass/_footer.scss */
 .footer_part .copyright_text p a {
@@ -4248,10 +4073,19 @@ h6 {
 
 /* line 1, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
 .blog_bg {
-  background-image: url("../img/blog_bg.png");
+  background-image: url("../img/companyprofile.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.blog_bg2 {
+  background-image: url("../img/companyprofile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: auto;
 }
 
 /* line 4, E:/161 Real estate/161_Real_state_html/sass/_breadcrumb.scss */
@@ -4331,6 +4165,7 @@ h6 {
   margin: 0px 5px;
   font-size: 12px;
 }
+
 
 /* Start Blog Area css
 ============================================================================================ */
@@ -5469,6 +5304,7 @@ h6 {
   opacity: .5;
 }
 
+
 @media (max-width: 991px) {
   /* line 1162, E:/161 Real estate/161_Real_state_html/sass/_blog.scss */
   .single-post-area .sidebar-widgets {
@@ -5704,40 +5540,205 @@ h6 {
   background: transparent;
 }
 
-/* line 24, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
-.btn_1 {
+.download {
+  margin-top: 10px;
   padding: 7px 12px;
   font-size: 14px;
   font-weight: 500;
   background-color: #cfb579;
   color: #fff;
-  border: 2px solid #000000;
+  border: 0px solid #000000;
   display: inline-block;
   text-transform: capitalize;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 34, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
-.btn_1:hover {
-  background-color: #d8b25a;
-  border: 2px solid #d8b25a;
+.download2 {
+  margin-top: 50px;
+  padding: 7px 12px;
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+padding-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #cfb579;
   color: #fff;
+  border: 0px solid #000000;
+  display: inline-block;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;}
+
+.btn_sosmed{
+  display: grid;
 }
 
-/* line 38, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
-.btn_1:hover a {
-  color: #fff;
+.sosmed{
+  display: flex;
 }
 
-/* line 42, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
-.btn_1 a {
-  color: #fff;
+.download2:hover {
+  color: #000000;
 }
 
-/* line 44, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
-.btn_1 a:hover {
-  color: #fff;
+.download:hover {
+  background-color: #000000;
+  border: 0px solid #000000;
+  color: #cfb579;
+}
+
+.btn {
+  border-radius: 50px;
+  font-size: 1em;
+  padding: 0.5em 2.5em;
+  margin: 0.25em;
+}
+
+.btn-lg { 
+  font-size: 1.75rem; 
+  font-weight: 300;
+  padding: 10px 60px;
+}
+
+.tm-gray-btn {  
+  background-color: #666666;
+  border: 2px solid #666666;
+  color: white;  
+}
+
+.tm-gray-btn:hover,
+.tm-gray-btn:focus {  
+  background: transparent;
+  color: #666666;
+}
+
+.tm-gray-bordered-btn {
+  background: transparent;
+  border: 2px solid #666666;
+  color: #666666;
+}
+
+.tm-gray-bordered-btn:hover,
+.tm-gray-bordered-btn:focus {
+  background: #666666;
+  color: white;
+}
+
+.tm-light-blue-bordered-btn { 
+  background: transparent;
+    border: 2px solid #4EA7FF;    
+    color: #4EA7FF;
+}
+
+.tm-light-blue-bordered-btn:hover,
+.tm-light-blue-bordered-btn:focus { 
+    background: #4EA7FF;
+    color: white;
+}
+
+.tm-blue-btn {
+  background: #006699;
+  border: 2px solid #006699;
+  color: white;
+}
+
+.tm-blue-btn:hover {
+  background: transparent;
+  color: #006699;
+}
+
+.tm-blue-bordered-btn {
+  background: transparent;
+  border: 2px solid #006699;
+  color: #006699;
+}
+
+.tm-blue-bordered-btn:hover,
+.tm-blue-bordered-btn:focus {
+  background: #006699;
+  color: white;
+}
+
+.tm-green-btn {
+  background: #006666;
+  border: 2px solid #006666;
+  color: white;
+}
+
+.tm-green-btn:hover,
+.tm-green-btn:focus {
+  background: transparent;
+  color: #006666;
+}
+
+.tm-green-bordered-btn {
+  background: transparent;
+  border: 2px solid #006666;
+  color: #006666;
+}
+
+.tm-green-bordered-btn:hover,
+.tm-green-bordered-btn:focus {
+  background: #006666;
+  color: white;
+}
+
+.tm-section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: auto;
+}
+
+.tm-footer {
+  padding-bottom: 20px;
+  overflow: auto;
+}
+
+.tm-news-item {
+  margin: 0 auto 5% auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tm-news-item:last-child { margin-bottom: 0; }
+
+.tm-news-item-img { margin: 0 auto; }
+
+.tm-news-item-img-container { padding: 0; }
+
+.tm-news-container {
+  background-color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 3%;
+  padding-right: 3%;  
+}
+
+.tm-news-title { 
+  font-weight: 300;
+  margin-bottom: 30px; 
+}
+
+.tm-news-text { line-height: 1.8; }
+
+.tm-news-link { 
+    margin-right: 0;
+    margin-left: auto;
+    -ms-flex-item-align: end;
+        -webkit-align-self: flex-end;
+            align-self: flex-end;
 }
 
 /* line 49, E:/161 Real estate/161_Real_state_html/sass/_button.scss */
@@ -5975,3 +5976,8 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* DARISINI ===================================================================================*/
+.team-section{
+  margin: 100px;
+}
